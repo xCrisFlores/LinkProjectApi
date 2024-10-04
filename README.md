@@ -3,7 +3,7 @@
 Primer avance sobre la API para el proyecto, para utilizar la API simplemente clona este repositorio, debes tener instalado previamente GIT y su CLI para este paso:
 
 ```bash
-https://github.com/xCrisFlores/LinkProjectApi.git
+git clone https://github.com/xCrisFlores/LinkProjectApi.git
 ```
 Una vez clonado el proyecto, debes instalar sus dependencias, para esto debes tener instalado Dotnet y su CLI la encuentras en este enlace: [Descarga Dotnet](https://dotnet.microsoft.com/download/dotnet "Descarga Dotnet")
 
