@@ -41,9 +41,6 @@ CREATE TABLE Adviser(
 	PRIMARY KEY (id)
 );
 
-//ANTES DE CONTINUAR EJECUTA EL SIGUIENTE COMANDO:
-dotnet ef dbcontext scaffold "Server=localhost;Database=LinkProject;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;" Microsoft.EntityFrameworkCore.SqlServer -o Models
-
 ALTER TABLE Student
 ADD CONSTRAINT FK_User_Code FOREIGN KEY (student_code) REFERENCES [User](code);
 
